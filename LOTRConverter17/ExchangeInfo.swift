@@ -23,13 +23,13 @@ struct ExchangeInfo: View {
                     .font(.title2)
                     .padding()
                 
-                ExchangeRate(leftImgae: .goldpiece, text: "1 Gold piece = 4 Gold pennies", rightImage: .goldpenny)
+                ExchangeRate(leftImage: .goldpiece, text: "1 Gold piece = 4 Gold pennies", rightImage: .goldpenny)
                 
-                ExchangeRate(leftImgae: .goldpenny, text: "1 Gold penny = 4 silver pennies", rightImage: .silverpenny)
+                ExchangeRate(leftImage: .goldpenny, text: "1 Gold penny = 4 silver pennies", rightImage: .silverpenny)
                 
-                ExchangeRate(leftImgae: .silverpiece, text: "1 Silver piece = 4 silver pennies", rightImage: .silverpenny)
+                ExchangeRate(leftImage: .silverpiece, text: "1 Silver piece = 4 silver pennies", rightImage: .silverpenny)
 
-                ExchangeRate(leftImgae: .silverpenny, text: "1 silver penny = 100 copper pennies", rightImage: .copperpenny)
+                ExchangeRate(leftImage: .silverpenny, text: "1 silver penny = 100 copper pennies", rightImage: .copperpenny)
                 
                 //done button
                 Button("Done") {
